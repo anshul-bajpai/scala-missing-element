@@ -11,6 +11,9 @@
 //  A[3] = 5
 //the function should return 4, as it is the missing element.
 
+//logic to sove this is : first find out sum of N natural numbers [ N*(N+1) / 2 ] and then sum of available elements in the given array. 
+//Difference between two is the missing element.
+
 class MissingElement(){
   def calculate(elements:Array[Int]): Int = {
     val expectedSum = sum(elements.length + 1)
